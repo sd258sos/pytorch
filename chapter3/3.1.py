@@ -1,6 +1,7 @@
 import torch
 from torch.autograd import Variable
 import numpy as np
+import torch.nn as nn
 import matplotlib.pyplot as plt
 
 # 3.1.1 Tensor(张量)
@@ -62,3 +63,9 @@ print(y)
 
 y.backward(torch.FloatTensor([1, 0.1, 0.01]))
 print(x.grad)
+
+# 1.3 Dataset(数据集)
+
+# 1.4 nn.Module(模块)
+
+
